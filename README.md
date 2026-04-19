@@ -48,6 +48,8 @@ bash
 javac Main.java
 java Main
 
+---
+
 ### 3) Smart Expense Tracker (Python)
 
 **Description**
