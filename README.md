@@ -1,13 +1,11 @@
-# Multi-Project Repository
+# Mini project
 
 ## Description
 This repository contains three projects demonstrating practical skills in SQL, Java, and Python for data management and real-world applications.
 
 ---
 
-## Projects Included
-
-### 1. SQL Project – Data Analysis
+### 1) SQL Project
 
 **Description**  
 This project uses SQL to analyze business data such as products, customers, and orders to extract meaningful insights.
@@ -21,7 +19,7 @@ This project uses SQL to analyze business data such as products, customers, and 
 **Tech Used**
 - SQL  
 
-**How to Run**
+**How to run**
 1. Create the database  
 2. Run table creation scripts  
 3. Insert data  
@@ -29,7 +27,7 @@ This project uses SQL to analyze business data such as products, customers, and 
 
 ---
 
-### 2. Library Management System (Java)
+### 2) Library Management System (Java)
 
 **Description**  
 A Java-based system to manage library operations like adding books, managing users, and tracking transactions.
@@ -45,7 +43,28 @@ A Java-based system to manage library operations like adding books, managing use
 **Tech Used**
 - Java (Core Java, OOP)  
 
-**How to Run**
-```bash
+**How to run**
+bash
 javac Main.java
 java Main
+
+### 3) Smart Expense Tracker (Python)
+
+**Description**
+A Python application to track expenses, categorize spending, and generate insights with visualizations.
+
+**Features**
+Add and view expenses
+Categorize spending (Food, Travel, Bills, etc.)
+Monthly summary
+Identify highest spending category
+Pie chart visualization
+
+**Tech Used**
+Python
+JSON
+Matplotlib
+
+**How to run**
+pip install matplotlib
+python expense_tracker.py
