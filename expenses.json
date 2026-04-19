@@ -1,0 +1,14 @@
+[
+  {
+    "date": "16-04-2026",
+    "cat": "food",
+    "amt": 300.0,
+    "desc": "lunch"
+  },
+  {
+    "date": "16-04-2026",
+    "cat": "travel",
+    "amt": 3000.0,
+    "desc": "bus ticket"
+  }
+]
