@@ -33,11 +33,11 @@ def add_expense():
     today = datetime.today().strftime("%d-%m-%Y")
     expenses.append({"date": today, "cat": category, "amt": amount, "desc": desc})
     save()
-    print("Expense added successfully!\n")
+    print("Expense added\n")
 
 def show_all():
     if not expenses:
-        print("No expenses yet!\n")
+        print("No expenses yet\n")
         return
     print("\nYour Expenses:")
     for i, e in enumerate(expenses, 1):
@@ -50,8 +50,8 @@ def summary():
         return
     
     totals = defaultdict(float)
-    for e in expenses:
-        totals[e["cat"]] += e["amt"]
+    for i in expenses:
+        totals[i["cat"]] += i["amt"]
     
     print("\nMonthly Summary")
     for cat, amt in totals.items():
