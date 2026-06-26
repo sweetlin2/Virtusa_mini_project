@@ -7,7 +7,7 @@ class Library {
     int[][] records = new int[100][3];
 
     int bookCount = 0;
-    int userCount = 0;
+    int userCount = 0; 
     int recordCount = 0;
 
     Scanner sc = new Scanner(System.in);
