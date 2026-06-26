@@ -3,7 +3,7 @@ class Book {
     int id;
     String title;
     String author;
-    boolean available;
+    boolean available; 
 
     Book(int id, String title, String author) {
         this.id = id;
